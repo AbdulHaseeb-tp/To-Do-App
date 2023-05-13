@@ -48,7 +48,7 @@ todoStr(todoIn.value);
 
 const trashbtn = document.createElement('button')
 trashbtn.classList.add('trash')
-trashbtn.innerHTML = ''
+trashbtn.innerHTML = 'X'
 todoDiv.appendChild(trashbtn)
 todoList.appendChild(todoDiv)
 
